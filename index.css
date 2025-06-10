@@ -1,0 +1,172 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+header{
+    height: 80px; 
+    display: flex;
+    justify-content:space-between;
+    background-color:#ffffff;
+    align-items: center;
+    border-bottom: 3px solid #b6b1b1;
+   
+}
+#Myntra_home{
+    height: 47px;
+    min-width: 75px;  
+}
+.logo_container{
+     margin-left: 2%;
+}
+.Action_bar{
+    margin-right: 4%;
+}
+.nav{
+    display: flex;
+    min-width: 550px;
+    justify-content: space-evenly
+    ; 
+}
+.nav a{
+    height: 80px;
+    font-size: 14px;
+    color: black;
+    letter-spacing: 0.3px; 
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-content: center;
+    border-bottom: 1px solid #b6b1b1;
+}
+.nav a:hover{
+    border-bottom: 3px solid #f54e77;
+}
+sup{
+    color:#ff3f6c;
+    font-size: 10px;
+}
+
+.search_bar{
+    background: #f5f5f6;
+    height: 40px;
+    min-width: 500px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 4%;
+}
+.search_icon{
+    height: 20px ;
+    box-sizing: content-box;
+    padding: 10px;
+    color: #282c3f;
+    background: #f5f5f6;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+.search{
+    flex-grow: 1;
+    font-size: 14px;
+    height: 20px;
+    line-height: 24px;
+    color: #696e79;
+    box-sizing: content-box;
+    padding: 8px 10px 10px;
+    border: 0px;
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    background: #f5f5f6;
+}
+.Action_bar{
+    display: flex;
+    height: 40px;
+    min-width: 194px;
+    justify-content: space-evenly;
+}
+.name{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*Main CSS*/
+.banner_container{
+    margin: 40px 0;
+}
+.banner_image{
+    width: 100%;
+    height: 600px;
+}
+
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: 0.15em;
+    font-size: 1.8em;
+    margin: 50px 0px 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.offer{
+    height: 324px;
+    width: 247px;
+}
+.category{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: 0.15em;
+    font-size: 1.8em;
+    margin: 50px 0px 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.categories{
+    height: 320px;
+    width: 250px;
+}
+.footer_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px 0 40px 0 ;
+    width: 100%;
+    background: #FAFBFC;
+}
+.footer_column{
+    display: flex;
+    flex-direction: column;
+    text-transform:uppercase;
+    font-size: 14px;
+    padding-bottom: 5px;
+    color: #696b79;
+    text-decoration: none;
+}
+.footer_column a{
+    text-decoration: none;
+
+}
+.footer_column h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.copyright{
+    color:  #94969f;
+    align-content: end;
+    text-align: end;
+    padding: 15px;
+}
